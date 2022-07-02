@@ -4,6 +4,8 @@
 /**
  * main - Entry point
  *
+ *Description: 'Print numbers'
+ *
  * Result: Always 0 (Success)
  */
 int main(void)
