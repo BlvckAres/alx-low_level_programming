@@ -6,7 +6,7 @@
  *
  * Result: Always 0 (Success)
  */
-int main(numbers)
+int main(void)
 {
 	int numbers;
 
