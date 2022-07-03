@@ -16,7 +16,6 @@ int main(void)
 		putchar(numba);
 		if (numba != '9')
 			putchar(',');
-		putchar(' ');
 	}
 	putchar('\n');
 
