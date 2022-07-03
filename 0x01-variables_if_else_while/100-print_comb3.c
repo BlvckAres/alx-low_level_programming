@@ -9,14 +9,17 @@
  */
 int main(void)
 {
-	int numb;
+	int x, y;
 
-	for (numb = 0; numb < 90; numb++)
+	for (x = 0; x < 9; x++)
 	{
-		putchar((numb / 10) + '0');
-		putchar((numb % 10) + '0');
-		if (numb != 89)
+		for (y = x + 1; y < 10; y++)
 		{
+			putchar((x % 10) + '0');
+			putchar((y % 10) + '0');
+
+			if (x == 8 && y == 9)
+				continue;
 			putchar(',');
 			putchar(' ');
 		}
