@@ -1,12 +1,3 @@
-#include "main.h"
+int putchar( char c);
+void print_alphabet(void);
 
-/**
- * main - check the code
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	putchar();
-	return (0);
-}
