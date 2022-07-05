@@ -3,9 +3,9 @@
 /**
  * print_alphabet -> prints the alphabet, in lowercase, then a new line.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	int letter;
+	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
