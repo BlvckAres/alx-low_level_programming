@@ -1,5 +1,5 @@
 #include "main.h"
-nclude <stdio.h>
+#include <stdio.h>
 /**
  * print_alphabet - Prints the alphabets in lowercase then a new line.
  * Return: void
