@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <ctype.h>
 /**
  * _supper -> a function that checks for an uppercase character.
  * @c: the character that has be checked.
@@ -9,5 +9,6 @@ int _supper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
-	return (0);
+	else
+		return (0);
 }
