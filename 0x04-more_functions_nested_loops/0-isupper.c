@@ -1,11 +1,11 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _supper -> a function that checks for an uppercase character.
+ * _isupper -> a function that checks for an uppercase character.
  * @c: the character that has be checked.
  * Return: 1 if a character is uppercase and 0 if otherwise.
  */
-int _supper(int c)
+int _isupper(int c)
 {
 	char c;
 
