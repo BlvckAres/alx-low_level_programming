@@ -1,1 +1,1 @@
-In this project we create functions and more nested loops.
+In this project we check out functions and nested loops.
