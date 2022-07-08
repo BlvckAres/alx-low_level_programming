@@ -3,7 +3,7 @@
 /**
  * print_line - draws a straight line using the character _.
  * @n: The number of _ character to be printed.
- * Return: the line for the n value
+ * Return: Always 0
  */
 void print_line(int n)
 {
