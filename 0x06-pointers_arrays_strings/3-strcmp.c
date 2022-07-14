@@ -4,9 +4,9 @@
  * _strcmp - A function that compares two strings.
  * @s1: First input
  * @s2: Second input
- * Return: dest
+ * Return: Always 0 (Success)
  */
-int_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 
