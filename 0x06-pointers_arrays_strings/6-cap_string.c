@@ -2,31 +2,33 @@
 
 /**
  * cap_string - A function that capitalizes all words of a string.
- * @x: The input string.
+ * @n: The input string.
  * Return: The stirng in uppercase.
  */
-char *cap_string(char *x)
+char *cap_string(char *n)
 {
-	int i, j;
+	int i, x;
 	int cap = 32;
-	int separators[] = {',', ';', '.', '!', '?', '"'
-		'(', ')', '{', '}', ' ', '\n', '\t'};
+	int separators[] = {',', ';', '.', '?', '"',
+		 '(', ')', '{', '}', ' ', '\n', '\t'};
 
-	for (i = 0; x[i] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		if (x[i] >= 'a' && x[i] <= 'z')
+		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			x[i] = x[i] - cap;
+			n[i] = n[i] - cap;
 		}
+
 		cap = 0;
-		for (j = 0; j <= 12; j++)
+
+		for (x = 0; x <= 12; x++)
 		{
-			if (x[i] == separators[j])
+			if (n[i] == separators[x])
 			{
-				j = 32;
+				x = 12;
 				cap = 32;
 			}
 		}
 	}
-	return (x);
+	return (n);
 }
