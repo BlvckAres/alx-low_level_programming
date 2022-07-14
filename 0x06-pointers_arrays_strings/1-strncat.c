@@ -10,12 +10,17 @@ include "main.h"
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int index = 0, dest_y = 0;
+	int x, y;
 
-	while (dest[index++])
-		dest_y++;
+	for (x = 0; dest[x] != '\0'; x++)
+	{
+	}
+	for (y = 0; y < n; y++)
+	{
+		dest[x + y] = src[y];
+		if (src[y] == '\0')
+			y = n;
+	}
 
-	for (index = 0; src[index] && x < n; index++)
-		dest[dest_y++] = src[index];
 	return (dest);
 }
