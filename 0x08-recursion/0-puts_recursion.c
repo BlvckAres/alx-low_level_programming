@@ -2,7 +2,6 @@
 /**
  * _puts_recursion - A function that prints a string, followed by a new line.
  * @s: The string to be printed.
- * Return: Always 0 (Success)
  */
 void _puts_recursion(char *s)
 {
