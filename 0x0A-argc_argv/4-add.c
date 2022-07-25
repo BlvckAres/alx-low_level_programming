@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 			}
 		}
 
-		sum += atoi(argv[num]};
+		sum += atoi(argv[num]);
 	}
 
 	printf("%d\n", sum);
