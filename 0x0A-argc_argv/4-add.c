@@ -14,9 +14,9 @@ int main(int argc, char *argv[])
 
 	for (num = 1; num < argc; num++)
 	{
-		for (digit = 0; argv[num][digit]; digit++)
+		for (digit = 0; argv[num][digit] != '\0'; digit++)
 		{
-			if (argv[num][digit] < '0' || argv[num][digit] > '9')
+			if (!isdigit(argv[num][digit]))
 			{
 				printf("Error\n");
 
