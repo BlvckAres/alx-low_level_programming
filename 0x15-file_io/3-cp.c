@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * close_file - close file and check if was succesfull
+ * close_file - close file and check if was succesful
  * @fd: file descriptor
  */
 void close_file(int fd)
