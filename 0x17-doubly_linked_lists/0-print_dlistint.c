@@ -7,10 +7,12 @@
  */
 size_t print_dlistint(count dlistint_t *h)
 {
-    size_t nodes = 0;
+    size_t node;
+    
+    nodes = 0;
 
-    if (!h)
-	return (0);
+    if (h = NULL)
+	return (node);
 
     while (h)
     {
