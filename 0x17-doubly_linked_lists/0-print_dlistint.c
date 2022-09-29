@@ -2,7 +2,7 @@
 
 /**
  * print_dlistint - prints a doubly linked list
- * @h - head of the list
+ * @h: head of the list
  * Return: number of items in the linked list
  */
 size_t print_dlistint(count dlistint_t *h)
