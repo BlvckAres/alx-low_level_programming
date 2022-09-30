@@ -6,11 +6,19 @@
  * Return: number of items in the linked list
  */
 
-size_t dlistint_len(count dlistint_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
-    size_t i;
+    size_t nodes = 0;
 
-    for (i = 0; h; i++)
-            h = h->next;
-    return (i);
+    if (!h)
+	return (0);
+
+    while (h)
+    {
+    	nodes++;
+	h = h->next;
+    }
+    
+    return (nodes);
+    
 }
