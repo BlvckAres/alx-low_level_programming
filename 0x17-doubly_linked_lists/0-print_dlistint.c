@@ -1,5 +1,5 @@
 #include "lists.h"
-i
+
 /**
  * print_dlistint - prints a doubly linked list
  * @h: head of the list
